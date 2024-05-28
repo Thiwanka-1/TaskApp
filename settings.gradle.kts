@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TaskApp"
+rootProject.name = "The Notes App"
 include(":app")
  

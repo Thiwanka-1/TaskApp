@@ -17,8 +17,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginTop="16dp"
-            android:fontFamily="sans-serif-black"
-            android:text="Edit Note."
+            android:fontFamily="@font/poppins"
+            android:text="Edit Task."
             android:textStyle="bold"
             android:textColor="@color/red"
             android:textSize="24sp" />
@@ -27,14 +27,14 @@
             android:id="@+id/editNoteTitle"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="Enter the title"
+            android:hint="Enter task name"
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/editNoteHeading"
             android:background="@drawable/pink_border"
             android:layout_marginTop="16dp"
             android:maxLines="1"
-            android:fontFamily="sans-serif-black"/>
+            android:fontFamily="@font/poppins"/>
 
         <EditText
             android:id="@+id/editNoteDesc"
@@ -44,7 +44,7 @@
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"
-            android:fontFamily="sans-serif-black"
+            android:fontFamily="@font/poppins"
             android:background="@drawable/pink_border"
             android:layout_below="@id/editNoteTitle"
             android:layout_marginTop="12dp" />

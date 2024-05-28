@@ -8,8 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".NewNoteFragment"
-        android:padding="12dp">
+        android:padding="12dp"
+        tools:context=".NewNoteFragment">
 
         <TextView
             android:id="@+id/addNoteHeading"
@@ -17,24 +17,24 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginTop="16dp"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/add_note"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:text="Add Task."
             android:textColor="@color/red"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/addNoteTitle"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="@string/enter_the_title"
-            android:padding="12dp"
-            android:textSize="20sp"
             android:layout_below="@id/addNoteHeading"
-            android:background="@drawable/pink_border"
             android:layout_marginTop="16dp"
+            android:background="@drawable/pink_border"
+            android:fontFamily="@font/poppins"
+            android:hint="Enter task name"
             android:maxLines="1"
-            android:fontFamily="sans-serif-black"/>
+            android:padding="12dp"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/addNoteDesc"
@@ -43,9 +43,9 @@
             android:layout_below="@id/addNoteTitle"
             android:layout_marginTop="12dp"
             android:background="@drawable/pink_border"
-            android:fontFamily="sans-serif-black"
+            android:fontFamily="@font/poppins"
             android:gravity="top"
-            android:hint="@string/enter_the_description"
+            android:hint="Enter the description"
             android:padding="12dp"
             android:textSize="18sp" />
 
